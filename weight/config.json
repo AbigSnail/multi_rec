@@ -1,0 +1,52 @@
+{
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "batch_size": 32,
+  "bert_path": "/mnt/python/bert-base-uncased/",
+  "context_size": [
+    333,
+    2,
+    734
+  ],
+  "embed_dim": 64,
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "image_height": 8,
+  "image_weights": "imagenet",
+  "image_width": 8,
+  "info_size": [
+    50,
+    239,
+    21,
+    30,
+    5,
+    10,
+    23177,
+    16
+  ],
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_desc_length": 10,
+  "max_history_length": 20,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "position_embedding_type": "absolute",
+  "predict_length": 10,
+  "profile_size": [
+    67,
+    2,
+    9663
+  ],
+  "transformers_version": "4.6.1",
+  "type_vocab_size": 2,
+  "use_cache": true,
+  "vocab_size": 30522
+}
