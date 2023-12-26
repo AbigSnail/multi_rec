@@ -4,6 +4,7 @@
 
 ## 数据集 
 本项目的完整数据集来源于kaggle中的H&M数据集，https://www.kaggle.com/datasets/odins0n/handm-dataset-128x128/data
+清洗后的数据集及预处理的后的图像数据(rec.csv)存放于data文件夹
 
 
 ## 需要的库
